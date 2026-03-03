@@ -1,5 +1,9 @@
 # env-contract-drift
 
+[![CI](https://github.com/Axlirr/env-contract-drift/actions/workflows/ci.yml/badge.svg)](https://github.com/Axlirr/env-contract-drift/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/env-contract-drift)](https://www.npmjs.com/package/env-contract-drift)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A lightweight CLI to detect **environment variable contract drift** across your codebase, Docker Compose files, and CI workflows.
 
 > Stop discovering missing env vars at deploy time.
