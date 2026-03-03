@@ -1,0 +1,21 @@
+{
+  "name": "env-contract-drift",
+  "version": "0.1.0",
+  "description": "Detect env var drift across code, Docker Compose, and CI/workflows.",
+  "bin": {
+    "env-contract-drift": "bin/env-contract-drift.js"
+  },
+  "type": "module",
+  "scripts": {
+    "scan": "node bin/env-contract-drift.js scan"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "ci",
+    "docker",
+    "drift",
+    "devops"
+  ],
+  "license": "MIT"
+}
