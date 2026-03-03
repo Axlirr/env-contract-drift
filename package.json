@@ -1,13 +1,14 @@
 {
   "name": "env-contract-drift",
-  "version": "0.1.0",
-  "description": "Detect env var drift across code, Docker Compose, and CI/workflows.",
+  "version": "0.1.1",
+  "description": "Detect environment variable contract drift across code, Docker Compose, and CI/workflow files.",
   "bin": {
     "env-contract-drift": "bin/env-contract-drift.js"
   },
   "type": "module",
   "scripts": {
-    "scan": "node bin/env-contract-drift.js scan"
+    "scan": "node bin/env-contract-drift.js scan",
+    "scan:json": "node bin/env-contract-drift.js scan --format json"
   },
   "keywords": [
     "env",
@@ -15,7 +16,19 @@
     "ci",
     "docker",
     "drift",
-    "devops"
+    "devops",
+    "configuration"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axlirr/env-contract-drift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Axlirr/env-contract-drift/issues"
+  },
+  "homepage": "https://github.com/Axlirr/env-contract-drift#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "license": "MIT"
 }
